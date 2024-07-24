@@ -11,3 +11,7 @@ Second run hugo server for dev
 - `hugo server`
 
 For build run just `hugo`
+
+## Tasks
+
+- Add favicon and seo from **up-business-theme**
