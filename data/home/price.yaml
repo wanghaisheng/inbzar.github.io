@@ -1,0 +1,24 @@
+enabled: true
+id: "price"
+
+content:
+  headerTitle: "Simple no-tricks pricing"
+  headerDescription: "Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum."
+
+  title: "Lifetime membership"
+  description: "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda."
+
+  whatsIncluded:
+    - "Private forum access"
+    - "Member resources"
+    - "Entry to annual conference"
+    - "Official member t-shirt"
+
+  price:
+    amount: 349
+    title: "Pay once, own it forever"
+    description: "Invoices and receipts available for easy company reimbursement"
+
+    button:
+      label: "Get access"
+      url: "#"

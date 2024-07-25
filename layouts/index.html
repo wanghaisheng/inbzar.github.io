@@ -1,6 +1,19 @@
 {{ define "main" }}
-  {{ with .Site.Data.home.hero }}{{ partial "sections/hero" . }}{{ end }}
+  <!-- Hero Section -->
+  {{ with .Site.Data.home.hero }}
+    {{ partial "sections/hero" . }}
+  {{ end }}
+
+
+  <!-- Features Section -->
   {{ with .Site.Data.home.features }}
     {{ partial "sections/features" . }}
   {{ end }}
+
+
+  <!-- Price Section -->
+  {{ with .Site.Data.home.price }}
+    {{ partial "sections/price" . }}
+  {{ end }}
+
 {{ end }}
