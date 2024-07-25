@@ -9,6 +9,15 @@ params:
 
   logo: "/images/logo.png"
 
+  copyright: "2024 InBzar. All rights reserved."
+
+  social:
+    facebook: "#"
+    instagram: "#"
+    twitter: "#"
+    github: "#"
+    youtube: "#"
+
 menus:
   main:
     - name: "Product"
@@ -30,3 +39,28 @@ menus:
   buttons:
     - name: "Log in"
       url: "#"
+
+  footer:
+    - name: "About"
+      url: "#"
+      weight: 1
+
+    - name: "Blog"
+      url: "#"
+      weight: 2
+
+    - name: "Jobs"
+      url: "#"
+      weight: 3
+
+    - name: "Press"
+      url: "#"
+      weight: 4
+
+    - name: "Accessibility"
+      url: "#"
+      weight: 4
+
+    - name: "Partners"
+      url: "#"
+      weight: 4
