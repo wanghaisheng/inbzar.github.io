@@ -1,3 +1,6 @@
 {{ define "main" }}
-  {{ with .Site.Data.home.hero }}{{ partial "sections/hero.html" . }}{{ end }}
+  {{ with .Site.Data.home.hero }}{{ partial "sections/hero" . }}{{ end }}
+  {{ with .Site.Data.home.features }}
+    {{ partial "sections/features" . }}
+  {{ end }}
 {{ end }}
