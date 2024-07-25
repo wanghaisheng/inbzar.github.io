@@ -4,7 +4,7 @@ id: "hero"
 content:
   title: "E-commerce Platform for Subscription Boxes, Digital Products, and More!"
   description: "InBzar is an all-in-one e-commerce platform designed for subscription boxes, digital products, and a variety of e-commerce systems."
-  image: "https://tailwindui.com/img/component-images/project-app-screenshot.png"
+  image: "images/order-3.png"
 
   buttonPrimary:
     label: "Get started"

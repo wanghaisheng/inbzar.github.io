@@ -20,24 +20,24 @@ params:
 
 menus:
   main:
-    - name: "Product"
+    - name: "Features"
       url: "#"
       weight: 1
 
-    - name: "Features"
+    - name: "Blog"
       url: "#"
       weight: 2
 
-    - name: "Marketplace"
+    - name: "Docs"
       url: "#"
       weight: 3
 
-    - name: "Company"
+    - name: "Pricing"
       url: "#"
       weight: 4
 
   buttons:
-    - name: "Log in"
+    - name: "Start trail"
       url: "#"
 
   footer:
