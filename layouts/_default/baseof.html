@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
-  {{ partial "head/head" . }}
+  <head>
+    {{ partial "head/head" . }}
+  </head>
   <body>
     {{ partial "common/header" . }}
     {{- block "main" . -}}{{- end -}}

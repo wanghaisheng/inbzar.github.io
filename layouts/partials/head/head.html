@@ -1,29 +1,16 @@
-<head>
-  <!-- Title -->
-  <title>{{ .Site.Title }} {{ with .Title }}| {{ . }}{{ end }}</title>
-
-  <!-- Meta -->
-  <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta
-    name="description"
-    content="{{ if .IsHome }}
-      {{ .Site.Params.description }}
-    {{ else if .Description }}
-      {{ .Description }}
-    {{ else }}
-      {{ .Site.Params.description }}
-    {{ end }}
-    " />
-
-  <!-- Stylesheets and Javascript -->
-  {{ partialCached "head/_resources.html" . }}
+<!-- Title -->
+{{ partial "head/_title" . }}
 
 
-  <!-- RSS -->
-  {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
-</head>
+<!-- Meta -->
+{{ partial "head/_meta" . }}
+
+
+<!-- Stylesheets and Javascript -->
+{{ partialCached "head/_resources" . }}
+
+
+<!-- RSS -->
+{{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
