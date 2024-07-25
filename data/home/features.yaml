@@ -9,4 +9,13 @@ content:
     keypoints:
       - title: "Push to deploy"
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-        icon: "upload"
+        icon: "cloud-arrow-up"
+
+  - feature: "Deploy faster"
+    title: "A better workflow"
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+    image: "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+    keypoints:
+      - title: "Push to deploy"
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+        icon: "cloud-arrow-up"
