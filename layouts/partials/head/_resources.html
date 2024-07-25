@@ -11,3 +11,9 @@
   {{ $styles := $styles | minify | fingerprint | resources.PostCSS }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
 {{ end }}
+
+
+<!-- Load Main JS -->
+{{ with resources.Get "js/main.js" }}
+  <script>{{ .Content | safeJS }}</script>
+{{ end }}
