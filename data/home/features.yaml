@@ -166,3 +166,20 @@ content:
       - title: "Drag-and-Drop Integration"
         description: "If preferred, create blocks using drag-and-drop tools and import them into InBzar’s Web Builder for seamless integration."
         icon: "chevron-up-down"
+
+  - feature: "Custom Theme"
+    title: "Personalized Themes with InBzar's Custom Theme Service"
+    description: "If our existing themes don't meet your needs, you can create a custom theme specifically to your requirements. Alternatively, our highly skilled developers are available to design and build a theme for you, ensuring it is both performant and responsive. With deep knowledge of the InBzar platform, our team will craft a theme that perfectly aligns with your vision and enhances your store's functionality."
+    image: "images/features/custom-theme-3.png"
+    keypoints:
+      - title: "Custom Theme Creation"
+        description: "Design and develop a unique theme tailored specifically to your requirements and branding."
+        icon: "newspaper"
+
+      - title: "Developer Expertise"
+        description: "Access highly skilled developers who are experts in the InBzar platform, ensuring a high-quality, performant, and responsive theme."
+        icon: "code-bracket"
+
+      - title: "Ongoing Support"
+        description: "Benefit from ongoing support and adjustments as needed to ensure your custom theme evolves with your business."
+        icon: "question-mark-circle"
