@@ -141,3 +141,28 @@ content:
       - title: "Behavioral Insights"
         description: "Gain insights into customer behavior patterns, such as bounce rates and exit pages, to enhance user experience and engagement."
         icon: "cursor-arrow-rays"
+
+  - feature: "Web Builder"
+    title: "Customize with Ease Using InBzar's Web Builder"
+    description: "InBzar's Web Builder lets you personalize your theme with flexibility and precision. Create and edit pages using pre-built blocks that you can rearrange to fit your needs. Unlike traditional drag-and-drop builders, which can impact performance and responsiveness, InBzar’s Web Builder offers a more efficient approach. For those familiar with HTML and CSS, you can design and add custom blocks. Alternatively, use any drag-and-drop tool to create blocks and simply copy and paste them into InBzar’s Web Builder for seamless integration."
+    image: "images/features/w1.png"
+    keypoints:
+      - title: "Performance Optimization"
+        description: "Avoid common performance and responsiveness issues associated with traditional drag-and-drop builders."
+        icon: "arrow-trending-up"
+
+      - title: "Responsive Design"
+        description: "Ensure your customizations maintain responsiveness across different devices and screen sizes."
+        icon: "device-mobile-phone"
+
+      - title: "Pre-Built Blocks"
+        description: "Use pre-designed blocks that you can edit and rearrange to customize your pages without starting from scratch."
+        icon: "cube"
+
+      - title: "HTML/CSS Customization"
+        description: "Design and create your own blocks using HTML and CSS for advanced customization."
+        icon: "code-bracket"
+
+      - title: "Drag-and-Drop Integration"
+        description: "If preferred, create blocks using drag-and-drop tools and import them into InBzar’s Web Builder for seamless integration."
+        icon: "chevron-up-down"

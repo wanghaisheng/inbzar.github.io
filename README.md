@@ -23,9 +23,9 @@ For build run just `hugo`
   - Marketing and notifications
   - Referral System
   - Customer chat
+  - Google analytics
   - Web Builder
   - Custom personal theme
-  - Google analytics
 - What can you build with InBzar (see medusajs.com)
 - Pricing
 - Blog
