@@ -2,16 +2,14 @@
 {{ $styles := resources.Get "css/styles.scss"
   | toCSS
   | postCSS (dict "config" "./assets/css/postcss.config.js")
-  | resources.ExecuteAsTemplate (printf "styles.%v.css" now.UnixMilli) .
 }}
 
-{{ if hugo.IsServer }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+{{- if hugo.IsServer }}
+  {{ $styles = $styles | resources.ExecuteAsTemplate (printf "css/styles.dev.%v.css" now.UnixMilli) . }}
 {{ else }}
-  {{ $styles := $styles | minify | fingerprint | resources.PostCSS }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
-{{ end }}
-
+  {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+{{ end -}}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
 
 <!-- Load Main JS -->
 {{ with resources.Get "js/main.js" }}
