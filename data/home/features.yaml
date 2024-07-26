@@ -27,6 +27,18 @@ content:
     title: "Expand Your Offerings with Digital Products Feature"
     description: "InBzar supports the sale of digital products, offering a robust library system that enables timely delivery of multiple files and documents. Enhance your e-commerce platform by seamlessly distributing digital content to your customers."
     image: "images/features/product.png"
+    keypoints:
+      - title: "Versatile Digital Content Support"
+        description: "Easily attach files, documents, and videos to your products, providing comprehensive digital offerings to your customers."
+        icon: "document"
+
+      - title: "Library System"
+        description: "Organize and manage your digital products efficiently with InBzar's robust library system."
+        icon: "building-library"
+
+      - title: "Access Control"
+        description: "Restrict digital content based on purchases or specific time intervals, or offer free access to enhance customer engagement."
+        icon: "lock-closed"
 
   - feature: "Library System"
     title: "Enhance Your Digital Offerings with Library System"
@@ -40,3 +52,20 @@ content:
       - title: "Periodic Restriction"
         description: "Library Periodic Restriction allows you to limit access to digital content based on specific time intervals. Customers can only access this content if they purchase the product within the defined period."
         icon: "clock"
+
+  - feature: "Payment Systems"
+    title: "Seamless Transactions with Personal Payment System"
+    description: " InBzar's Personal Payment System empowers you to integrate your own payment methods, including PayPal, Stripe, or other manual systems, ensuring all payments go directly into your account without any transaction fees. Unlike other platforms, InBzar does not hold your funds or charge commissions. This system keeps all customer subscriptions active in your account, eliminating vendor lock-in and allowing you to move your customers freely. By using your own payment system, InBzar fosters a stronger relationship between you and your customers."
+    image: "images/features/payment-method.svg"
+    keypoints:
+      - title: "No Transaction Fee"
+        description: "Your payments are deposited directly into your account without any commissions or transaction fees from InBzar, payments go directly into your account"
+        icon: "credit-card"
+
+      - title: "Freely move customers"
+        description: "This system keeps all customer subscriptions active in your account, eliminating vendor lock-in and allowing you to move your customers freely"
+        icon: "lock-open"
+
+      - title: "Multiple Payment Systems"
+        description: "The Multiple Payment System feature allows you to integrate various payment methods into your store, including PayPal, Stripe, and other manual systems. This flexibility ensures a seamless and convenient payment experience for your customers."
+        icon: "banknotes"
