@@ -1,4 +1,4 @@
-# inbzar
+# InBzar
 
 ## Start
 
