@@ -3,22 +3,26 @@ id: "price"
 
 content:
   headerTitle: "Simple no-tricks pricing"
-  headerDescription: "Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum."
+  headerDescription: "Enjoy transparent and straightforward pricing with no hidden fees or complex terms."
 
-  title: "Lifetime membership"
-  description: "Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda."
+  title: "Monthly subscription"
+  description: "Monthly subscription plan that offers flexibility and affordability, ensuring you can access all the features and services."
 
   whatsIncluded:
-    - "Private forum access"
-    - "Member resources"
-    - "Entry to annual conference"
-    - "Official member t-shirt"
+    - label: "All basic E-commerce Features"
+      included: true
+
+    - label: "All Features mentioned above"
+      included: true
+
+    - label: "Custom Theme"
+      included: false
 
   price:
-    amount: 349
-    title: "Pay once, own it forever"
-    description: "Invoices and receipts available for easy company reimbursement"
+    amount: 49
+    title: "Pay on monthly basis"
+    description: "15 days free trail, you can cancel subscription at any time"
 
     button:
-      label: "Get access"
+      label: "Start trail"
       url: "#"
