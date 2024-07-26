@@ -120,3 +120,24 @@ content:
       - title: "Conversation History"
         description: "Access past chat interactions to review previous discussions and provide informed support."
         icon: "book-open"
+
+  - feature: "User Behavior and Analytics"
+    title: "Enhance Insights with Google Analytics"
+    description: "InBzar integrates with Google Analytics to offer comprehensive user behavior and web analytics for your storefront. Gain valuable insights into customer interactions, track website performance, and analyze trends to make data-driven decisions and optimize your store’s performance."
+    image: "images/features/ga6.png"
+    keypoints:
+      - title: "Traffic Sources"
+        description: "Identify where your traffic is coming from, including direct visits, referrals, and search engines, to refine your marketing strategies."
+        icon: "user-group"
+
+      - title: "Real-Time Data"
+        description: "Access real-time insights into website performance and visitor activity to stay updated on your store’s performance."
+        icon: "clock"
+
+      - title: "User Flow Visualization"
+        description: "Visualize user paths through your site to understand how customers navigate and identify potential areas for improvement."
+        icon: "arrow-trending-up"
+
+      - title: "Behavioral Insights"
+        description: "Gain insights into customer behavior patterns, such as bounce rates and exit pages, to enhance user experience and engagement."
+        icon: "cursor-arrow-rays"
