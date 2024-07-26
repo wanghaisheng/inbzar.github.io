@@ -17,7 +17,9 @@
   {{ end }}
 
 
-  <!-- Blog Section -->
-  {{ partial "sections/blog" . }}
+  <!-- Recipes Section -->
+  {{ with .Site.Data.home.recipes }}
+    {{ partial "sections/recipes" . }}
+  {{ end }}
 
 {{ end }}
