@@ -86,3 +86,20 @@ content:
       - title: "Integrated Dashboard"
         description: "The Integrated Dashboard feature allows you to manage all your marketing and notification tasks directly from the InBzar dashboard, eliminating the need to switch to the SendGrid app. Streamline your workflow with a unified interface for greater efficiency and convenience."
         icon: "squares"
+
+  - feature: "Referral System"
+    title: "Boost Sales with Referral System"
+    description: "InBzar's Referral System enhances your sales strategy by allowing you to create and distribute referral links. When new customers make purchases using these links, the referrer earns a reward, and you can offer discounts to the referred customers. You can also set specific conditions for each referral link, including applicable products, start and expiration dates, and usage limits. This flexibility helps you tailor your referral campaigns to meet your marketing goals."
+    image: "images/features/r2.png"
+    keypoints:
+      - title: "Attach Discount"
+        description: "With the Attach Discount feature in Referral System, you can add discounts to referral links. This allows referred customers to receive special discounts when they use the referral link, enhancing their incentive to make a purchase and boosting the effectiveness of your referral campaigns."
+        icon: "currency-dollar"
+
+      - title: "Configuration and Conditions"
+        description: "The Configuration and Conditions feature allows you to customize referral links by setting specific criteria. Define which products, collections, or types of products the referral link applies to, as well as set start and end dates for its validity. You can also limit the number of times the referral link can be used, providing you with precise control over your referral campaigns."
+        icon: "lock-closed"
+
+      - title: "Order and Payment History"
+        description: "The Order and Payment History feature provides both you and the referrer with detailed insights into referral activities. View all orders placed using the referral link, track earnings and payments, and see outstanding balances. This transparency helps you monitor the effectiveness of your referral program and manage payouts efficiently."
+        icon: "book-open"
