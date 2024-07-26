@@ -3,19 +3,40 @@ id: "features"
 
 content:
   - feature: "Subscription Box"
-    title: "A better workflow"
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-    image: "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+    title: "Sell Products on Subscription Basis"
+    description: "Boost your sales with InBzar's Subscription Box feature, offering a flexible way to sell products on a subscription basis. Customers can subscribe to receive boxes at regular intervals, or opt for a one-time purchase if enabled. With customizable start and closing dates for orders, you can manage your inventory efficiently and meet customer demands seamlessly. Elevate your e-commerce offerings with this dynamic and user-friendly feature."
+    image: "images/features/p2.png"
     keypoints:
-      - title: "Push to deploy"
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-        icon: "cloud-arrow-up"
+      - title: "Onetime Purchase"
+        description: "The Onetime Purchase feature allows store owners to offer subscription boxes for both one-time and subscription-based purchases at different prices, providing flexibility and tailored pricing options to meet customer needs."
+        icon: "shopping-bag"
 
-  - feature: "Deploy faster"
-    title: "A better workflow"
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-    image: "https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+      - title: "Customer Defined Delivery"
+        description: "With Customer Defined Delivery, you can allow customers to set their preferred delivery intervals, ensuring their subscription boxes arrive exactly when they need them."
+        icon: "gift"
+
+      - title: "Orders Opening"
+        description: "Store owners can specify opening and closing dates for orders, ensuring efficient inventory management and precise control over order periods for their subscription boxes."
+        icon: "arrow-path-rounded-square"
+
+      - title: "Expire Subscriptions automatically"
+        description: "Store owners can set automatic subscription cancellations by defining the number of orders after which the subscription expires or manually cancel subscriptions if no order limit is specified."
+        icon: "credit-card"
+
+  - feature: "Digital Products"
+    title: "Expand Your Offerings with Digital Products Feature"
+    description: "InBzar supports the sale of digital products, offering a robust library system that enables timely delivery of multiple files and documents. Enhance your e-commerce platform by seamlessly distributing digital content to your customers."
+    image: "images/features/product.png"
+
+  - feature: "Library System"
+    title: "Enhance Your Digital Offerings with Library System"
+    description: "The Library System enables you to attach digital content—such as files, documents, or videos—to your products. You can restrict access to this content based on purchases or set periodic availability. Alternatively, you can make content freely accessible without any purchase requirements, providing versatile options to meet your business needs."
+    image: "images/features/library.png"
     keypoints:
-      - title: "Push to deploy"
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-        icon: "cloud-arrow-up"
+      - title: "Restriction"
+        description: "With Library Restriction, you have the flexibility to allow free access to digital content or restrict it based on your specific needs, providing control over how your digital products are distributed."
+        icon: "lock-closed"
+
+      - title: "Periodic Restriction"
+        description: "Library Periodic Restriction allows you to limit access to digital content based on specific time intervals. Customers can only access this content if they purchase the product within the defined period."
+        icon: "clock"

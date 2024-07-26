@@ -18,6 +18,7 @@ For build run just `hugo`
 - Features
   - Subscription box
   - Digital products
+  - Library system
   - Personal payment system
   - Marketing and notifications
   - Referral System
