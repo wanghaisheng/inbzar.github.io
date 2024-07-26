@@ -103,3 +103,20 @@ content:
       - title: "Order and Payment History"
         description: "The Order and Payment History feature provides both you and the referrer with detailed insights into referral activities. View all orders placed using the referral link, track earnings and payments, and see outstanding balances. This transparency helps you monitor the effectiveness of your referral program and manage payouts efficiently."
         icon: "book-open"
+
+  - feature: "Customer Chat"
+    title: "Real-Time Customer Chat with Store Owners"
+    description: "The Customer Chat feature enables real-time communication between customers and store owners. Engage in instant conversations to address inquiries, resolve issues, and provide personalized support directly from your store's platform, enhancing the overall customer experience."
+    image: "images/features/chat.png"
+    keypoints:
+      - title: "Instant Messaging"
+        description: "Enable real-time communication between customers and store owners for quick responses and support."
+        icon: "chat-bubble-bottom-center-text"
+
+      - title: "Direct Conversations"
+        description: "Facilitate one-on-one interactions to address customer inquiries and concerns directly."
+        icon: "chat-bubble-left-right"
+
+      - title: "Conversation History"
+        description: "Access past chat interactions to review previous discussions and provide informed support."
+        icon: "book-open"
