@@ -7,7 +7,7 @@ params:
   title: "InBzar"
   description: "E-commerce Platform for Subscription Boxes, Digital Products, and More!"
 
-  logo: "/images/logo.png"
+  logo: "images/logo.png"
 
   copyright: "2024 InBzar. All rights reserved."
 

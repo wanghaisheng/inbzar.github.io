@@ -5,7 +5,7 @@ content:
   - feature: "Subscription Box"
     title: "Sell Products on Subscription Basis"
     description: "Boost your sales with InBzar's Subscription Box feature, offering a flexible way to sell products on a subscription basis. Customers can subscribe to receive boxes at regular intervals, or opt for a one-time purchase if enabled. With customizable start and closing dates for orders, you can manage your inventory efficiently and meet customer demands seamlessly. Elevate your e-commerce offerings with this dynamic and user-friendly feature."
-    image: "images/features/p2.png"
+    image: "images/features/subscription-box.png"
     keypoints:
       - title: "Onetime Purchase"
         description: "The Onetime Purchase feature allows store owners to offer subscription boxes for both one-time and subscription-based purchases at different prices, providing flexibility and tailored pricing options to meet customer needs."
@@ -73,7 +73,7 @@ content:
   - feature: "Marketing and Notifications"
     title: "Boost Your Outreach with Marketing and Notification System"
     description: "InBzar works with SendGrid to provide a powerful Marketing and Notification system. Effortlessly send notifications and marketing emails to keep your customers informed and engaged. Enhance your communication strategy with reliable and efficient email services integrated seamlessly into your e-commerce platform."
-    image: "images/features/sendgrid-2.png"
+    image: "images/features/sendgrid.png"
     keypoints:
       - title: "Automatically Synchronization"
         description: "Automatically Synchronization ensures that customers and their data are seamlessly synced with SendGrid. This eliminates the need for manual import or export, streamlining your marketing and notification processes."
@@ -90,7 +90,7 @@ content:
   - feature: "Referral System"
     title: "Boost Sales with Referral System"
     description: "InBzar's Referral System enhances your sales strategy by allowing you to create and distribute referral links. When new customers make purchases using these links, the referrer earns a reward, and you can offer discounts to the referred customers. You can also set specific conditions for each referral link, including applicable products, start and expiration dates, and usage limits. This flexibility helps you tailor your referral campaigns to meet your marketing goals."
-    image: "images/features/r2.png"
+    image: "images/features/referral.png"
     keypoints:
       - title: "Attach Discount"
         description: "With the Attach Discount feature in Referral System, you can add discounts to referral links. This allows referred customers to receive special discounts when they use the referral link, enhancing their incentive to make a purchase and boosting the effectiveness of your referral campaigns."
@@ -124,7 +124,7 @@ content:
   - feature: "User Behavior and Analytics"
     title: "Enhance Insights with Google Analytics"
     description: "InBzar integrates with Google Analytics to offer comprehensive user behavior and web analytics for your storefront. Gain valuable insights into customer interactions, track website performance, and analyze trends to make data-driven decisions and optimize your store’s performance."
-    image: "images/features/ga6.png"
+    image: "images/features/google-analytics.png"
     keypoints:
       - title: "Traffic Sources"
         description: "Identify where your traffic is coming from, including direct visits, referrals, and search engines, to refine your marketing strategies."
@@ -145,7 +145,7 @@ content:
   - feature: "Web Builder"
     title: "Customize with Ease Using InBzar's Web Builder"
     description: "InBzar's Web Builder lets you personalize your theme with flexibility and precision. Create and edit pages using pre-built blocks that you can rearrange to fit your needs. Unlike traditional drag-and-drop builders, which can impact performance and responsiveness, InBzar’s Web Builder offers a more efficient approach. For those familiar with HTML and CSS, you can design and add custom blocks. Alternatively, use any drag-and-drop tool to create blocks and simply copy and paste them into InBzar’s Web Builder for seamless integration."
-    image: "images/features/w1.png"
+    image: "images/features/web-builder.png"
     keypoints:
       - title: "Performance Optimization"
         description: "Avoid common performance and responsiveness issues associated with traditional drag-and-drop builders."
@@ -170,7 +170,7 @@ content:
   - feature: "Custom Theme"
     title: "Personalized Themes with InBzar's Custom Theme Service"
     description: "If our existing themes don't meet your needs, you can create a custom theme specifically to your requirements. Alternatively, our highly skilled developers are available to design and build a theme for you, ensuring it is both performant and responsive. With deep knowledge of the InBzar platform, our team will craft a theme that perfectly aligns with your vision and enhances your store's functionality."
-    image: "images/features/custom-theme-3.png"
+    image: "images/features/custom-theme.png"
     keypoints:
       - title: "Custom Theme Creation"
         description: "Design and develop a unique theme tailored specifically to your requirements and branding."
