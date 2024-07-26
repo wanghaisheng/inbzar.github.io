@@ -21,46 +21,21 @@ params:
 menus:
   main:
     - name: "Features"
-      url: "#"
+      url: "#features"
       weight: 1
 
     - name: "Blog"
-      url: "#"
+      url: "https://blog.inbzar.com"
       weight: 2
 
     - name: "Docs"
-      url: "#"
+      url: "https://docs.inbzar.com"
       weight: 3
 
     - name: "Pricing"
-      url: "#"
+      url: "#pricing"
       weight: 4
 
   buttons:
-    - name: "Start trail"
+    - name: "Start trial"
       url: "#"
-
-  footer:
-    - name: "About"
-      url: "#"
-      weight: 1
-
-    - name: "Blog"
-      url: "#"
-      weight: 2
-
-    - name: "Jobs"
-      url: "#"
-      weight: 3
-
-    - name: "Press"
-      url: "#"
-      weight: 4
-
-    - name: "Accessibility"
-      url: "#"
-      weight: 4
-
-    - name: "Partners"
-      url: "#"
-      weight: 4

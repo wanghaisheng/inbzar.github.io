@@ -1,5 +1,5 @@
 enabled: true
-id: "price"
+id: "pricing"
 
 content:
   headerTitle: "Simple no-tricks pricing"
@@ -21,8 +21,8 @@ content:
   price:
     amount: 49
     title: "Pay on monthly basis"
-    description: "15 days free trail, you can cancel subscription at any time"
+    description: "15 days free trial, you can cancel subscription at any time"
 
     button:
-      label: "Start trail"
+      label: "Start trial"
       url: "#"

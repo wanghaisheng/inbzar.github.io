@@ -7,9 +7,9 @@ content:
   image: "images/order-3.png"
 
   buttonPrimary:
-    label: "Get started"
+    label: "Start trial"
     url: "#"
 
   buttonSecondary:
     label: "Learn more"
-    url: "#"
+    url: "#features"

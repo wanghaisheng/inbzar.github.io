@@ -1,12 +1,14 @@
 {{ if .enabled }}
-  {{ range $index, $item := .content }}
-    {{ $isEven := (mod $index 2) | eq 0 }}
-    {{ if $isEven }}
-      {{ partial "feature-image-on-right" $item }}
-    {{ else }}
-      {{ partial "feature-image-on-left" $item }}
+  <section id="{{ .id }}">
+    {{ range $index, $item := .content }}
+      {{ $isEven := (mod $index 2) | eq 0 }}
+      {{ if $isEven }}
+        {{ partial "feature-image-on-right" $item }}
+      {{ else }}
+        {{ partial "feature-image-on-left" $item }}
+      {{ end }}
     {{ end }}
-  {{ end }}
+  </section>
 {{ end }}
 
 
