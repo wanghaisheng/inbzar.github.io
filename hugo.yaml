@@ -38,6 +38,10 @@ menus:
       url: "#pricing"
       weight: 4
 
+    - name: "Contact us"
+      url: "/contact-us"
+      weight: 5
+
   buttons:
     - name: "Start trial"
       url: "/get-started"
