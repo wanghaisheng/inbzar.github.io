@@ -9,7 +9,34 @@
           {{ .content.description }}
         </p>
       </div>
-      <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+
+      <script>
+        window.onload = function () {
+          const referralCode = localStorage.getItem("referral-code");
+          if(referralCode) {
+            document.getElementById("referral-code").value = referralCode
+          }
+        }
+
+        function onFormSubmit() {
+          {{/*  window.location = "http://localhost:1313/contact-us";  */}}
+        }
+      </script>
+
+      <iframe
+        name="hidden_iframe"
+        id="hidden_iframe"
+        style="display:none;"></iframe>
+
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLScx28Qx9PCMyYVtuZ6lyLjtusOgyxX4BSjRcWI37BHcwb68dg/formResponse"
+        method="post"
+        target="hidden_iframe"
+        onsubmit="onFormSubmit()"
+        class="mx-auto mt-16 max-w-xl sm:mt-20">
+        <!-- Referral Code -->
+        <input id="referral-code" type="hidden" name="entry.1220620095" />
+
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
@@ -20,7 +47,7 @@
             <div class="mt-2.5">
               <input
                 type="text"
-                name="first-name"
+                name="entry.972794140"
                 id="first-name"
                 autocomplete="given-name"
                 placeholder="John"
@@ -37,7 +64,7 @@
             <div class="mt-2.5">
               <input
                 type="text"
-                name="last-name"
+                name="entry.210770106"
                 id="last-name"
                 autocomplete="family-name"
                 placeholder="Smith"
@@ -55,7 +82,7 @@
             <div class="mt-2.5">
               <input
                 type="email"
-                name="email"
+                name="entry.1639486048"
                 id="email"
                 autocomplete="email"
                 placeholder="you@example.com"
@@ -72,7 +99,7 @@
             <div class="mt-2.5">
               <input
                 type="tel"
-                name="phone-number"
+                name="entry.1525680849"
                 id="phone-number"
                 autocomplete="tel"
                 placeholder="+1 (555) 987-6543"
@@ -88,7 +115,7 @@
             <div class="mt-2.5">
               <input
                 type="text"
-                name="store_name"
+                name="entry.257344567"
                 id="store-name"
                 autocomplete="family-name"
                 placeholder="My Shop"
@@ -109,7 +136,7 @@
               </div>
               <input
                 type="inbzar-domain"
-                name="inbzar_domain"
+                name="entry.1917521169"
                 id="inbzar-domain"
                 placeholder="shop"
                 required
@@ -130,7 +157,7 @@
             <div class="mt-2.5">
               <input
                 type="text"
-                name="custom_domain"
+                name="entry.281407642"
                 id="custom-domain"
                 placeholder="www.myshop.com"
                 class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
