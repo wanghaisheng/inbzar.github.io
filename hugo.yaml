@@ -3,6 +3,8 @@ languageCode: "en-us"
 
 title: "InBzar"
 
+googleAnalytics: "G-XH6EFM03RM"
+
 params:
   title: "InBzar"
   description: "E-commerce Platform for Subscription Boxes, Digital Products, and More!"
