@@ -8,7 +8,8 @@ params:
   description: "E-commerce Platform for Subscription Boxes, Digital Products, and More!"
   keywords: "e-commerce, subscription boxes, digital products, online shopping, e-commerce platform, buy subscription boxes, digital goods, online marketplace, e-commerce store, InBzar, inbzar, shop online, subscription services, digital downloads, online retail, e-commerce solutions"
 
-  logo: "images/logo.png"
+  logo: "/images/logo.png"
+  favicon: "/images/favicon.ico"
 
   copyright: "2024 InBzar. All rights reserved."
 
