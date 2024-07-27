@@ -14,5 +14,5 @@ For build run just `hugo`
 
 ## Tasks
 
-- Change custom theme image (get new one form up-business)
 - Add Google analytics
+- Add live chat
