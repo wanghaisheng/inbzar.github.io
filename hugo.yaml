@@ -40,4 +40,4 @@ menus:
 
   buttons:
     - name: "Start trial"
-      url: "#"
+      url: "/get-started"

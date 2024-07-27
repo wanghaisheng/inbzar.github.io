@@ -15,6 +15,9 @@ content:
     - label: "All Features mentioned above"
       included: true
 
+    - label: "Web builder and Theme customization"
+      included: true
+
     - label: "Custom Theme"
       included: false
 
@@ -25,4 +28,4 @@ content:
 
     button:
       label: "Start trial"
-      url: "#"
+      url: "/get-started"
