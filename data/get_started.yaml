@@ -4,3 +4,9 @@ id: "get-started"
 content:
   title: "Get started"
   description: "Enjoy our monthly subscription plan with a 15-day free trial. Experience all the features risk-free and cancel your subscription at any time with no commitments."
+
+  stripePaymentLink: "https://buy.stripe.com/test_14kbJv3FD1lO4yQ5kk"
+
+  themes:
+    - name: "Theme 24"
+      thumbnail: "/images/features/custom-theme.png"

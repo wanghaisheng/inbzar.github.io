@@ -1,10 +1,3 @@
-{{ $themes := slice
-  (dict "name" "Theme 24" "thumbnail" "/images/features/custom-theme.png")
-  (dict "name" "Subscription Box" "thumbnail" "/images/features/custom-theme.png")
-  (dict "name" "Digital Store" "thumbnail" "/images/features/custom-theme.png")
-}}
-
-
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const radioButtons = document.querySelectorAll(".theme-radio");
@@ -46,7 +39,7 @@
   </div>
 
   <div class="mt-4 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-4">
-    {{ range $index, $theme := $themes }}
+    {{ range $index, $theme := .content.themes }}
       <label
         class="relative flex cursor-pointer rounded-lg border bg-white p-4 shadow-sm focus:outline-none">
         <input
