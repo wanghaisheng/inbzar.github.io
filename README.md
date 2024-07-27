@@ -13,6 +13,3 @@ Second run hugo server for dev
 For build run just `hugo`
 
 ## Tasks
-
-- Add Google analytics
-- Add live chat
