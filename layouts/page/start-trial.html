@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ with .Site.Data.get_started }}
+  {{ with .Site.Data.start_trial }}
     <div id="{{ .id }}" class="isolate px-6 py-24 sm:py-32 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -11,7 +11,7 @@
       </div>
 
       <script>
-        let get_started_form_submitted = false;
+        let start_trial_form_submitted = false;
         window.onload = function () {
           let referralCode = localStorage.getItem("referral-code");
 
@@ -32,7 +32,7 @@
         }
 
         function onFormSubmit() {
-          if (get_started_form_submitted) {
+          if (start_trial_form_submitted) {
             window.location = "{{ .content.stripePaymentLink }}"
           }
         }
@@ -48,7 +48,7 @@
         action="https://docs.google.com/forms/d/e/1FAIpQLScx28Qx9PCMyYVtuZ6lyLjtusOgyxX4BSjRcWI37BHcwb68dg/formResponse"
         method="post"
         target="hidden_iframe"
-        onsubmit="get_started_form_submitted = true; loading()"
+        onsubmit="start_trial_form_submitted = true; loading()"
         class="mx-auto mt-16 max-w-xl sm:mt-20">
         <!-- Referral Code -->
         <input id="referral-code" type="hidden" name="entry.1220620095" />

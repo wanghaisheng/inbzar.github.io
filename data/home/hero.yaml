@@ -8,7 +8,7 @@ content:
 
   buttonPrimary:
     label: "Start trial"
-    url: "/get-started"
+    url: "/start-trial"
 
   buttonSecondary:
     label: "Learn more"

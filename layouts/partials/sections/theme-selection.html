@@ -86,12 +86,16 @@
       href="/contact-us"
       class="relative flex cursor-pointer rounded-lg border bg-white p-4 shadow-sm focus:outline-none">
       <span class="flex flex-1">
-        <span class="flex flex-col">
-          <span class="block text-sm font-medium text-gray-900">
-            Custom Theme
-          </span>
-          <span class="mt-1 flex items-center text-sm text-gray-500">
-            For custom theme contact us
+        <span class="flex flex-col justify-between">
+          <span>
+            <span class="block text-sm font-medium text-gray-900">
+              {{ .content.customTheme.title }}
+            </span>
+            <div class="mt-1 text-sm text-gray-500">
+              {{ range .content.customTheme.descriptions }}
+                <div class="mt-4">{{ . }}</div>
+              {{ end }}
+            </div>
           </span>
           <span class="mt-6">
             <img

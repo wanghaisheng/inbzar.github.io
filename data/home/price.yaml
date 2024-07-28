@@ -28,4 +28,4 @@ content:
 
     button:
       label: "Start trial"
-      url: "/get-started"
+      url: "/start-trial"
