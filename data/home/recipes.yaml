@@ -15,7 +15,7 @@ content:
     - title: "Sell Subscription as Recurring and Onetime purchase"
       category: "Subscription Box"
       description: "With InBzar, you can sell subscriptions both as recurring and one-time purchases. Offer flexible options to your customers, allowing them to choose between ongoing subscriptions or a single purchase, catering to diverse preferences and increasing your sales opportunities."
-      image: "images/recipes/recurring-and-onetime-payment.png"
+      image: "images/recipes/purchase-vs-subscribe.png"
       url: "#"
 
     - title: "Start selling Digital Products"
