@@ -8,7 +8,7 @@ content:
   recipes:
     - title: "Create Subscription Box Business"
       category: "Subscription Box"
-      description: "Launch and manage a Subscription Box Business effortlessly with InBzar. Customize subscription plans, curate product selections, and automate deliveries to provide your customers with a delightful and personalized unboxing experience every month."
+      description: "Launch and manage a Subscription Box Business effortlessly with InBzar. Customize subscription plans, curate product selections, and automate deliveries to provide your customers with a delightful and personalized unboxing experience."
       image: "images/recipes/subscription-box.avif"
       url: "#"
 
