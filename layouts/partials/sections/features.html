@@ -89,7 +89,7 @@
                       {{ if .icon }}
                         {{ partial "utils/icon" (dict "name" .icon "class" "absolute top-1 left-1 h-5 w-5 text-indigo-600") }}
                       {{ end }}
-                      {{ .title }}
+                      <span class="mr-1">{{ .title }}</span>
                     </dt>
                     <dd class="inline">{{ .description }}</dd>
                   </div>
