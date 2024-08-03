@@ -27,5 +27,5 @@ content:
     description: "15 days free trial, you can cancel subscription at any time"
 
     button:
-      label: "Start trial"
-      url: "/start-trial"
+      label: "Coming soon"
+      url: "#"

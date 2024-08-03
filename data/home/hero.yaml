@@ -7,9 +7,9 @@ content:
   image: "images/hero/order.png"
 
   buttonPrimary:
-    label: "Start trial"
-    url: "/start-trial"
+    label: "Coming soon"
+    url: "#"
 
   buttonSecondary:
     label: "Learn more"
-    url: "#features"
+    url: "https://docs.inbzar.com/features"

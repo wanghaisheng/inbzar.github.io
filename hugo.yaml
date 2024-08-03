@@ -47,5 +47,5 @@ menus:
       weight: 5
 
   buttons:
-    - name: "Start trial"
-      url: "/start-trial"
+    - name: "Coming soon"
+      url: "#"
