@@ -36,6 +36,72 @@
             window.location = "{{ .content.stripePaymentLink }}"
           }
         }
+
+        function levenshteinDistance(a, b) {
+            let tmp;
+            let i, j;
+            const alen = a.length;
+            const blen = b.length;
+            const row = Array(blen);
+            const d = Array(alen);
+
+            if (alen === 0) return blen;
+            if (blen === 0) return alen;
+
+            for (i = 0; i <= alen; i++) d[i] = Array(blen);
+            for (i = 0; i <= alen; i++) d[i][0] = i;
+            for (j = 0; j <= blen; j++) d[0][j] = j;
+
+            for (i = 1; i <= alen; i++) {
+                for (j = 1; j <= blen; j++) {
+                    tmp = a[i - 1] === b[j - 1] ? 0 : 1;
+                    d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + tmp);
+                }
+            }
+
+            return d[alen][blen];
+        }
+
+        function validateInbzarDomain(input) {
+          const restrictedSubdomains = [
+              "www", "blog", "docs", "admin", "app", "mail", "support", "help", "dev",
+              "test", "stage", "beta", "api", "m", "shop", "store", "forum", "community", "careers",
+              "jobs", "news", "events", "portal", "customer", "client", "account", "my", "dashboard",
+              "analytics", "reports", "files", "assets", "cdn", "static", "media", "images", "video",
+              "live", "play", "labs", "research", "partners", "affiliates", "legal", "privacy",
+              "terms", "security", "status", "billing", "payments", "checkout", "offers", "deals",
+              "pricing", "learn", "training", "resources", "tools", "calculator", "survey",
+              "market", "bazaar", "shop", "store", "mart", "boutique", "emporium",
+              "warehouse", "depot", "outlet", "supermarket", "mall", "plaza",
+              "arcade", "grocery", "flea", "generalstore",
+              "online", "webstore", "superstore",
+              "minimart", "discountstore", "lifestyle",
+              "hardware", "bakery", "deli", "butcher", "cheese", "health",
+              "pharmacy", "apothecary", "specialty", "fashion", "apparel",
+              "bookstore", "musicstore", "electronics", "gadget", "sports", "outdoor",
+              "camping", "shopify", "marketify", "bzar", "bazar"
+          ];
+
+          const submitButton = document.getElementById("submit-btn");
+          const errorMessage = document.getElementById("error-message");
+
+          const subdomainValue = input.value.trim().toLowerCase();
+
+          const isTooShort = subdomainValue.length < 6;
+          const isSimilar = restrictedSubdomains.some(word => levenshteinDistance(subdomainValue, word) <= 2);
+
+
+          if (isTooShort || isSimilar) {
+            submitButton.disabled = true;
+            errorMessage.style.display = "block";
+            errorMessage.textContent = isTooShort
+                ? "Subdomain must be at least 6 characters long."
+                : "This subdomain is not available.";
+          } else {
+              submitButton.disabled = false;
+              errorMessage.style.display = "none";
+          }
+        }
       </script>
 
       <iframe
@@ -158,11 +224,10 @@
                 required
                 minlength="6"
                 pattern="[a-zA-Z0-9]+"
+                oninput="validateInbzarDomain(this)"
                 class="block w-full rounded-md border-0 px-3.5 py-2 pr-16 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
             </div>
-            <span class="text-sm text-gray-500">
-              Availability to be checked later
-            </span>
+            <span id="error-message" class="text-sm text-rose-500"></span>
           </div>
           <div>
             <label

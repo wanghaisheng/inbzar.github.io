@@ -15,5 +15,5 @@ content:
       - "This is a paid service, with a one-time charge that varies depending on the complexity and specifications of your custom theme."
 
   themes:
-    - name: "Theme 24"
-      thumbnail: "/images/start-trial/theme-24.jpeg"
+    - name: "Standard Theme"
+      thumbnail: "/images/start-trial/standard-theme.jpeg"
