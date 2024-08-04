@@ -30,8 +30,8 @@ menus:
       url: "#features"
       weight: 1
 
-    - name: "Blog"
-      url: "https://blog.inbzar.com"
+    - name: "Recipes"
+      url: "https://docs.inbzar.com/recipes"
       weight: 2
 
     - name: "Docs"
