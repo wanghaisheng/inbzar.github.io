@@ -27,7 +27,7 @@ params:
 menus:
   main:
     - name: "Features"
-      url: "#features"
+      url: "/#features"
       weight: 1
 
     - name: "Recipes"
@@ -39,7 +39,7 @@ menus:
       weight: 3
 
     - name: "Pricing"
-      url: "#pricing"
+      url: "/#pricing"
       weight: 4
 
     - name: "Contact us"
@@ -49,3 +49,28 @@ menus:
   buttons:
     - name: "Coming soon"
       url: "#"
+
+  footer:
+    - name: "Features"
+      url: "/#features"
+      weight: 1
+
+    - name: "Recipes"
+      url: "https://docs.inbzar.com/recipes"
+      weight: 2
+
+    - name: "Docs"
+      url: "https://docs.inbzar.com"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#pricing"
+      weight: 4
+
+    - name: "Contact us"
+      url: "/contact-us"
+      weight: 5
+
+    - name: "Terms and Conditions"
+      url: "/terms-and-conditions"
+      weight: 6
